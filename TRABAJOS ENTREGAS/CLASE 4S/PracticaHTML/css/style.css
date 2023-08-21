@@ -1,0 +1,14 @@
+
+ul.sin__puntos{
+    list-style-type: none;
+}
+ul.con__puntos{
+    list-style-type: disc;
+}
+p{
+    line-height: 1;
+}
+ol li p{
+    margin: 0;
+    padding: 0;
+}

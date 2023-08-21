@@ -1,0 +1,13 @@
+*{
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+.logoNav{
+    width: 100px;
+    height: auto;
+}

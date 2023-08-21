@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', Times, serif;
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: 5px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #005677;
+}
+h2{
+    margin: 0;
+    padding-left: 0.5em;
+    letter-spacing: 0.1em;
+    color: #005677;
+}
+.container__Fperfil{
+    background-image: url('../img/fondoBanner.jpg');
+    background-repeat: round;
+    text-align: center;
+}
+.Fperfil{
+    width: 220px;
+    height: 240x;
+    margin: 1.5em;
+}
+.container__titulo{
+    background-color: rgb(180, 180, 180);
+}
+.container__personales{
+    margin-top: 90px;
+    padding-bottom: 20px;
+}
+.lista__personales{
+    padding-top: 1em;
+    list-style: disc;
+}
+.lista__personales li{
+    padding: 0.2em;
+}
+.container__laboral{
+    margin-bottom: 100px;
+}
+ul{
+    padding-left: 50px;
+}
+.sin__punto{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-left: 40px;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container__footer{
+    background-color: #005677;
+    text-align: center;
+}
+#pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: 1.3em;
+    padding: 0.5em;
+}
+p{
+    margin: 0;
+    padding-top: 0.2em;
+    padding-left: 5.9em;
+    padding-bottom: 1em;
+}
+.a__sobremi{
+    color: rgb(236, 0, 0);
+    font-size: 2em;
+}
+.ul__sobremi{
+    list-style: none;
+}
+i{
+    color: #ffffff;
+}
+.section__parrafos{
+    text-align: justify;
+    padding: 2em 3em;
+    font-size: 1.5em;
+}
+.h1__sobreMi{
+    margin: 1em;
+}
+hr{
+    margin: 1em;
+}
